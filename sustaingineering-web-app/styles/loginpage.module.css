@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Geist&display=swap');
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 2rem;
+  background-color: #000000; /* Light gray background */
+  font-family: 'Geist', sans-serif;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+  color: #ffffff; /* Dark gray text */
+}
+
+.button {
+  background-color: #00bcd4; /* Cyan background */
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  margin-bottom: 2rem;
+}
+
+.button:hover {
+  background-color: #0097a7; /* Darker cyan on hover */
+}
